@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section>
+        <a href="{% url 'campaign-list' %}">Campaigns</a>
+    </section>
+    <section>
+        <table class="ui celled table">
+            <thead>
+                <tr>
+                    <th>Camapign</th>
+                    <th>Created</th>
+                    <th>Your campaign key (if exists)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for campaign in object_list %}
+                    <tr>
+                        <th><a href="{% url 'campaign-detail' campaign.id %}">{{ campaign.key }}</a></th>
+                        <th>{{ campaign.created }}</th>
+                        <th>{{ campaign.user_referrer_key }}</th>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endblock content %}

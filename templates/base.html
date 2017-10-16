@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Gloria Hallelujah', cursive;
+            font-weight: 800;
+            font-size: 2em;
+        }
+        header {
+            padding: 20px;
+            font-size: 2.1em;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<header>
+    {% if request.user.is_authenticated %}
+        {{ request.user.username }} ({{ request.user.email }})
+
+    {% else %}
+        <a href="{% url 'auth_login' %}">Login</a> | <a href="{% url 'registration_register' %}">Register</a>
+    {% endif %}
+
+</header>
+{% block content %}{% endblock content %}
+</body>
+</html>

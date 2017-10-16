@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section>
+        <a href="{% url 'campaign-list' %}">Campaigns</a> > <span>{{ object.key }}</span>
+    </section>
+
+    {% if request.user.is_authenticated %}
+        <section id="user-referrers">
+
+            <table class="ui celled table">
+                <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Referral link</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for user_referrer in user_referrers %}
+                    <tr>
+                        <td>{{ user_referrer.user.username }}</td>
+                        <td>
+                            <mark>{% if user_referrer.key %}http://localhost:8000/
+                                {{ user_referrer.key|default:"" }}{% else %}-{% endif %}</mark>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+        </section>
+    {% endif %}
+
+
+{% endblock content %}
