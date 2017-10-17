@@ -8,7 +8,7 @@
         <table class="ui celled table">
             <thead>
                 <tr>
-                    <th>Camapign</th>
+                    <th>Campaign</th>
                     <th>Created</th>
                     <th>Your campaign key (if exists)</th>
                 </tr>
@@ -16,9 +16,15 @@
             <tbody>
                 {% for campaign in object_list %}
                     <tr>
-                        <th><a href="{% url 'campaign-detail' campaign.id %}">{{ campaign.key }}</a></th>
-                        <th>{{ campaign.created }}</th>
-                        <th>{{ campaign.user_referrer_key }}</th>
+                        <td><a href="{% url 'campaign-detail' campaign.id %}">{{ campaign.key }}</a></td>
+                        <td>{{ campaign.created }}</td>
+                        <td>
+                            {% if not campaign.user_referrer_key %}
+                                <a href="{% url 'campaign-new-referral' campaign.id %}">Request referral key</a>
+                            {% else %}
+                                {{ campaign.user_referrer_key }}
+                            {% endif %}
+                        </td>
                     </tr>
                 {% endfor %}
             </tbody>

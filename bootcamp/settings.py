@@ -54,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'referral_module.middleware.ReferrerStoreMiddleware',
 
 ]
 
@@ -133,3 +134,5 @@ STATIC_URL = '/static/'
 INTERNAL_IPS = ['127.0.0.1', ]
 
 LOGIN_URL = '/accounts/login/'
+
+SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"

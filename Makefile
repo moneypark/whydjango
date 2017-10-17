@@ -1,2 +1,2 @@
 run:
-	python manage.py runserver 9004
+	python manage.py runserver_plus 9004

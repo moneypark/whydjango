@@ -20,8 +20,7 @@
                     <tr>
                         <td>{{ user_referrer.user.username }}</td>
                         <td>
-                            <mark>{% if user_referrer.key %}http://localhost:8000/
-                                {{ user_referrer.key|default:"" }}{% else %}-{% endif %}</mark>
+                            <mark>{% if user_referrer.key %}http://localhost:9004{% url 'registration_register' %}?cp={{ user_referrer.campaign.key }}&uk={{ user_referrer.key}}{% else %}-{% endif %}</mark>
                         </td>
                     </tr>
                 {% endfor %}

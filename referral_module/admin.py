@@ -13,6 +13,7 @@ class UserReferrerAdmin(admin.ModelAdmin):
 
 
 class ReferrerAdmin(admin.ModelAdmin):
+    list_display = ('__str__', 'user_referrer', )
     raw_id_fields = ('registered_user', 'user_referrer', )
 
 
