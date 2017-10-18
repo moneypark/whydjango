@@ -30,7 +30,7 @@ class CampaignListView(ListView):
 class CampaignDetailView(DetailView):
     template_name = 'campaign/detail.html'
     model = models.Campaign
-    queryset = models.Campaign.objects.all()
+    queryset = models.Campaign.objects.all().prefetch_related('user_referrers__user')
 
     def get_context_data(self, **kwargs):
         context = super(CampaignDetailView, self).get_context_data(**kwargs)
