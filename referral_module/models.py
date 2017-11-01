@@ -1,5 +1,4 @@
 import logging
-
 from random import choice
 
 from django.contrib.auth.models import User
@@ -7,11 +6,9 @@ from django.db import models, transaction
 from django.db.utils import IntegrityError
 from django.dispatch import receiver
 from django.http import HttpRequest
-
 from registration.signals import user_registered
 
 from . import constants
-
 
 logger = logging.getLogger('bootcamp.{}'.format(__file__))
 

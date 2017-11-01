@@ -1,9 +1,8 @@
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseBadRequest, HttpResponseRedirect
 from django.urls import reverse
 from django.utils.decorators import method_decorator
-from django.views.generic import ListView, DetailView, View
-from django.http import HttpResponseRedirect, HttpResponseBadRequest
-
+from django.views.generic import DetailView, ListView, View
 
 from . import models
 
