@@ -89,6 +89,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bootcamp_dev',
         'USER': 'dizhak',
+        'TEST': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'test_db',
+            'USER': 'postgres',
+        },
     }
 }
 
