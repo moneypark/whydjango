@@ -1,0 +1,22 @@
+language: python
+python:
+  - "3.6"
+
+sudo: false
+
+env: 
+  - Django=1.11
+
+install:
+  - pip install tox tox-travis
+
+script:
+  - tox
+
+after_success:
+  - pip install codecov
+  - codecov -e TOXENV,DJANGO
+
+notifications:
+  email: false
+
