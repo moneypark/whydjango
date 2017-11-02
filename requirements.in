@@ -1,0 +1,16 @@
+django
+django-debug-toolbar
+django-extensions
+django-registration
+flake8
+ipdb
+psycopg2
+pyflakes
+werkzeug
+
+tox
+pytest
+pytest-cov
+pytest-django
+codecov
+factory_boy
