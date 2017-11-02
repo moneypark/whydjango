@@ -1,7 +1,7 @@
 appnope==0.1.0
 confusable-homoglyphs==2.0.2
 decorator==4.1.2
-Django==1.11.6
+Django==1.11.7
 django-debug-toolbar==1.8
 django-extensions==1.9.1
 django-registration==2.3
