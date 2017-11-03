@@ -5,7 +5,7 @@ Django==1.11.7
 django-debug-toolbar==1.8
 django-extensions==1.9.7
 django-registration==2.3
-flake8==3.4.1
+flake8==3.5.0
 hashids==1.2.0
 ipdb==0.10.3
 ipython==6.2.1
