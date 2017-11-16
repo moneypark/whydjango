@@ -19,10 +19,9 @@ chardet==3.0.4 \
 codecov==2.0.9 \
     --hash=sha256:ad82f054837b02081f86ed1eb6c04cddc029fbc734eaf92ff73da1db3a79188b \
     --hash=sha256:db1c182ca896244d8644d8410a33f6f6dd1cc24d80209907a65077445923f00c
-confusable-homoglyphs==2.0.2 \
-    --hash=sha256:9c042d2c952eb2cfb26c0bfb8ea8c2105fea4817c16ea6eaf55eb01503aeaae1 \
-    --hash=sha256:e653f557f6728864e70c24dd4e33750595304f2d193a1db9f37960c5c4b50d6c \
-    # via django-registration
+confusable-homoglyphs==3.0.0 \
+    --hash=sha256:4f5d42df30ba461281634ed9b3ad8303a0e94a13d28a7b225523ca9b9b29b65b \
+    --hash=sha256:2dc772701291bd8343abd0dca01453b970a998a9dc7fc4be558d91472100e02e    # via django-registration
 coverage==4.4.1 \
     --hash=sha256:0f1883eab9c19aa243f51308751b8a2a547b9b817b721cc0ecf3efb99fafbea7 \
     --hash=sha256:13ef9f799c8fb45c446a239df68034de3a6f3de274881b088bebd7f5661f79f8 \
