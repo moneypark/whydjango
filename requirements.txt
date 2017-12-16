@@ -16,7 +16,7 @@ chardet==3.0.4 \
     --hash=sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae \
     --hash=sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691 \
     # via requests
-codecov==2.0.9 \
+codecov==2.0.10 \
     --hash=sha256:ad82f054837b02081f86ed1eb6c04cddc029fbc734eaf92ff73da1db3a79188b \
     --hash=sha256:db1c182ca896244d8644d8410a33f6f6dd1cc24d80209907a65077445923f00c
 confusable-homoglyphs==2.0.2 \
