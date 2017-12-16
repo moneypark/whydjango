@@ -109,10 +109,9 @@ parso==0.1.0 \
     --hash=sha256:b573acb69f66a970197b5fdbbdfad3b8a417a520e383133b2b4e708f104bfc9a \
     --hash=sha256:c5279916bb417aa2bf634648ff895cf35dce371d7319744884827bfad06f8d7b \
     # via jedi
-pexpect==4.3.0 \
-    --hash=sha256:00ab0872f80f5db740499e7a1283a7c3b97bea542d72df84d83dea17d0afd2d9 \
-    --hash=sha256:2b50dd8caa5007b10b0afcf075095814780b104b4a5cf9d8fbdc8bbc754e5ca4 \
-    # via ipython
+pexpect==4.3.1 \
+    --hash=sha256:144939a072a46d32f6e5ecc866509e1d613276781f7182148a08df52eaa7b022 \
+    --hash=sha256:8e287b171dbaf249d0b06b5f2e88cb7e694651d2d0b8c15bccb83170d3c55575    # via ipython
 pickleshare==0.7.4 \
     --hash=sha256:84a9257227dfdd6fe1b4be1319096c20eb85ff1e82c7932f36efccfe1b09737b \
     --hash=sha256:c9a2541f25aeabc070f12f452e1f2a8eae2abd51e1cd19e8430402bdf4c1d8b5 \
