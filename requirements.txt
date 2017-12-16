@@ -116,7 +116,7 @@ pickleshare==0.7.4 \
     --hash=sha256:84a9257227dfdd6fe1b4be1319096c20eb85ff1e82c7932f36efccfe1b09737b \
     --hash=sha256:c9a2541f25aeabc070f12f452e1f2a8eae2abd51e1cd19e8430402bdf4c1d8b5 \
     # via ipython
-pluggy==0.5.2 \
+pluggy==0.6.0 \
     --hash=sha256:bd60171dbb250fdebafad46ed16d97065369da40568ae948ef7117eee8536e94 \
     # via tox
 prompt-toolkit==1.0.15 \
