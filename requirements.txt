@@ -109,7 +109,7 @@ parso==0.1.0 \
     --hash=sha256:b573acb69f66a970197b5fdbbdfad3b8a417a520e383133b2b4e708f104bfc9a \
     --hash=sha256:c5279916bb417aa2bf634648ff895cf35dce371d7319744884827bfad06f8d7b \
     # via jedi
-pexpect==4.3.0 \
+pexpect==4.3.1 \
     --hash=sha256:00ab0872f80f5db740499e7a1283a7c3b97bea542d72df84d83dea17d0afd2d9 \
     --hash=sha256:2b50dd8caa5007b10b0afcf075095814780b104b4a5cf9d8fbdc8bbc754e5ca4 \
     # via ipython
