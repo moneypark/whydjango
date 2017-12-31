@@ -234,6 +234,6 @@ wcwidth==0.1.7 \
     --hash=sha256:3df37372226d6e63e1b1e1eda15c594bca98a22d33a23832a90998faa96bc65e \
     --hash=sha256:f4ebe71925af7b40a864553f761ed559b43544f8f71746c2d756c7fe788ade7c \
     # via prompt-toolkit
-werkzeug==0.13 \
-    --hash=sha256:f3000aa146ce8a9da8ca3e978e0e931c2a58eb56c323a5efb6b4307f7832b549 \
-    --hash=sha256:6246e5fc98a505824113fb6aca993d45ea284a2bcffdc2c65d0c538e53e4abd3
+werkzeug==0.14 \
+    --hash=sha256:322b15deb0e503c3e96c267b676d47ca069edccbf6338549bea7916583822a55 \
+    --hash=sha256:4aea27a9513b056346e9c8b49107f4ee7927f7bcf0be63024ecee39d5b87e9ef
