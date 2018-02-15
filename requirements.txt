@@ -86,8 +86,8 @@ idna==2.6 \
     --hash=sha256:2c6a5de3089009e3da7c5dde64a141dbc8551d5b7f6cf4ed7c2568d0cc520a8f \
     --hash=sha256:8c7309c718f94b3a625cb648ace320157ad16ff131ae0af362c9f21b80ef6ec4 \
     # via requests
-ipdb==0.10.3 \
-    --hash=sha256:9ea256b4280fbe12840fb9dfc3ce498c6c6de03352eca293e4400b0dfbed2b28
+ipdb==0.11 \
+    --hash=sha256:7081c65ed7bfe7737f83fa4213ca8afd9617b42ff6b3f1daf9a3419839a2a00a
 ipython-genutils==0.2.0 \
     --hash=sha256:72dd37233799e619666c9f639a9da83c34013a73e8bbc79a7a6348d93c61fab8 \
     --hash=sha256:eb2e116e75ecef9d4d228fdc66af54269afa26ab4463042e33785b887c628ba8 \
