@@ -89,6 +89,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'test_db',
         'USER': 'postgres',
+
     },
 }
 
@@ -136,3 +137,9 @@ INTERNAL_IPS = ['127.0.0.1', ]
 LOGIN_URL = '/accounts/login/'
 
 SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"
+
+
+try:
+    from .settings_local import *
+except ImportError:
+    pass
