@@ -64,9 +64,9 @@ decorator==4.2.1 \
 django-debug-toolbar==1.9.1 \
     --hash=sha256:4af2a4e1e932dadbda197b18585962d4fc20172b4e5a479490bc659fe998864d \
     --hash=sha256:d9ea75659f76d8f1e3eb8f390b47fc5bad0908d949c34a8a3c4c87978eb40a0f
-django-extensions==1.9.9 \
-    --hash=sha256:6fb35133b61e7295d43c1f7added952e5dfe689ae65662d2fb5fe7ea1a397eba \
-    --hash=sha256:f642e79990f365e82a7c906c91b0dabea533cdcdf2df7059a732e1e8648f2fa3
+django-extensions==2.0.5 \
+    --hash=sha256:1f424a7f87974c2e2602b8b41cae52eb08105523f0c70320203abf58bcb84404 \
+    --hash=sha256:24c24bbc6ef6dd36fe6b2b7c48d171a9d22fe76895610fe19087af657fa27930
 django-registration==2.3 \
     --hash=sha256:4acd6ccdda4bfe4a568936d22678589529434f2ff702d61d70d3ca1512cbb141 \
     --hash=sha256:694a23336e5c68059834910646fbc6b6fdf0ea68fdaa5f890f329be40bdd9c8b
