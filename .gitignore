@@ -109,3 +109,5 @@ confusables.json
 settings_local.py
 
 test_db
+
+.DS_Store
