@@ -100,10 +100,9 @@ ipython==6.2.1 \
     --hash=sha256:51c158a6c8b899898d1c91c6b51a34110196815cc905f9be0fa5878e19355608 \
     --hash=sha256:fcc6d46f08c3c4de7b15ae1c426e15be1b7932bcda9d83ce1a4304e8c1129df3 \
     # via ipdb
-jedi==0.11.1 \
-    --hash=sha256:d6e799d04d1ade9459ed0f20de47c32f2285438956a677d083d3c98def59fa97 \
-    --hash=sha256:d795f2c2e659f5ea39a839e5230d70a0b045d0daee7ca2403568d8f348d0ad89 \
-    # via ipython
+jedi==0.12.1 \
+    --hash=sha256:c254b135fb39ad76e78d4d8f92765ebc9bf92cbc76f49e97ade1d5f5121e1f6f \
+    --hash=sha256:b409ed0f6913a701ed474a614a3bb46e6953639033e31f769ca7581da5bd1ec1    # via ipython
 mccabe==0.6.1 \
     --hash=sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42 \
     --hash=sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f \
