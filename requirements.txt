@@ -4,10 +4,6 @@
 #
 #    pip-compile --generate-hashes --output-file requirements.txt requirements.in
 #
-appnope==0.1.0 \
-    --hash=sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0 \
-    --hash=sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71 \
-    # via ipython
 attrs==17.4.0 \
     --hash=sha256:1c7960ccfd6a005cd9f7ba884e6316b5e430a3f1a6c37c5f87d8b43f83b54ec9 \
     --hash=sha256:a17a9573a6f475c99b551c0e0a812707ddda1ec9653bed04c13841404ed6f450 \
@@ -70,9 +66,9 @@ django-extensions==2.0.6 \
 django-registration==2.4.1 \
     --hash=sha256:667b4fb49447227b62ff76693697d77acb85cadb87129fd1cb94481971e76c51 \
     --hash=sha256:d446eec9dbab12f5a98baa1af6c1db08b56b66eec047dbadf8bec09ce2787a95
-django==1.11.11 \
-    --hash=sha256:74077d7309b48b97dacdac2dfb35c968028becf00a7a684e7f29b2af1b980edc \
-    --hash=sha256:fd186d544c7c2f835668cf11f77be071307c9eb22615a5b3a16bdb14c8357f41
+django==1.11.16 \
+    --hash=sha256:29268cc47816a44f27308e60f71da635f549c47d8a1d003b28de55141df75791 \
+    --hash=sha256:37f5876c1fbfd66085001f4c06fa0bf96ef05442c53daf8d4294b6f29e7fa6b8
 djangorestframework==3.7.7 \
     --hash=sha256:1f6baf40ed456ed2af6bd1a4ff8bbc3503cebea16509993aea2b7085bc097766 \
     --hash=sha256:9f9e94e8d22b100ed3a43cee8c47a7ff7b185e778a1f2da9ec5c73fc4e081b87
