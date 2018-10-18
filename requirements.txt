@@ -73,9 +73,9 @@ django-registration==2.4.1 \
 django==1.11.11 \
     --hash=sha256:74077d7309b48b97dacdac2dfb35c968028becf00a7a684e7f29b2af1b980edc \
     --hash=sha256:fd186d544c7c2f835668cf11f77be071307c9eb22615a5b3a16bdb14c8357f41
-djangorestframework==3.7.7 \
-    --hash=sha256:1f6baf40ed456ed2af6bd1a4ff8bbc3503cebea16509993aea2b7085bc097766 \
-    --hash=sha256:9f9e94e8d22b100ed3a43cee8c47a7ff7b185e778a1f2da9ec5c73fc4e081b87
+djangorestframework==3.9.0 \
+    --hash=sha256:63f76cbe1e7d12b94c357d7e54401103b2e52aef0f7c1650d6c820ad708776e5 \
+    --hash=sha256:607865b0bb1598b153793892101d881466bd5a991de12bd6229abb18b1c86136
 factory-boy==2.10.0 \
     --hash=sha256:bd5a096d0f102d79b6c78cef1c8c0b650f2e1a3ecba351c735c6d2df8dabd29c \
     --hash=sha256:be2abc8092294e4097935a29b4e37f5b9ed3e4205e2e32df215c0315b625995e
