@@ -125,9 +125,9 @@ pickleshare==0.7.4 \
     --hash=sha256:84a9257227dfdd6fe1b4be1319096c20eb85ff1e82c7932f36efccfe1b09737b \
     --hash=sha256:c9a2541f25aeabc070f12f452e1f2a8eae2abd51e1cd19e8430402bdf4c1d8b5 \
     # via ipython
-pluggy==0.6.0 \
-    --hash=sha256:7f8ae7f5bdf75671a718d2daf0a64b7885f74510bcd98b1a0bb420eb9a9d0cff \
-    # via pytest, tox
+pluggy==0.8.1 \
+    --hash=sha256:980710797ff6a041e9a73a5787804f848996ecaa6f8a1b1e08224a5894f2074a \
+    --hash=sha256:8ddc32f03971bfdf900a81961a48ccf2fb677cf7715108f85295c67405798616    # via pytest, tox
 prompt-toolkit==1.0.15 \
     --hash=sha256:1df952620eccb399c53ebb359cc7d9a8d3a9538cb34c5a1344bdbeb29fbcc381 \
     --hash=sha256:3f473ae040ddaa52b52f97f6b4a493cfa9f5920c255a12dc56a7d34397a398a4 \
