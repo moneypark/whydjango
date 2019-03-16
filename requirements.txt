@@ -57,10 +57,9 @@ coverage==4.5.1 \
     --hash=sha256:e05cb4d9aad6233d67e0541caa7e511fa4047ed7750ec2510d466e806e0255d6 \
     --hash=sha256:f3f501f345f24383c0000395b26b726e46758b71393267aeae0bd36f8b3ade80 \
     # via codecov, pytest-cov
-decorator==4.2.1 \
-    --hash=sha256:7d46dd9f3ea1cf5f06ee0e4e1277ae618cf48dfb10ada7c8427cd46c42702a0e \
-    --hash=sha256:94d1d8905f5010d74bbbd86c30471255661a14187c45f8d7f3e5aa8540fdb2e5 \
-    # via ipython, traitlets
+decorator==4.4.0 \
+    --hash=sha256:86156361c50488b84a3f148056ea716ca587df2f0de1d34750d35c21312725de \
+    --hash=sha256:f069f3a01830ca754ba5258fde2278454a0b5b79e0d7f5c13b3b97e57d4acff6    # via ipython, traitlets
 django-debug-toolbar==1.9.1 \
     --hash=sha256:4af2a4e1e932dadbda197b18585962d4fc20172b4e5a479490bc659fe998864d \
     --hash=sha256:d9ea75659f76d8f1e3eb8f390b47fc5bad0908d949c34a8a3c4c87978eb40a0f
