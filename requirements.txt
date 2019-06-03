@@ -70,9 +70,9 @@ django-extensions==2.0.6 \
 django-registration==2.4.1 \
     --hash=sha256:667b4fb49447227b62ff76693697d77acb85cadb87129fd1cb94481971e76c51 \
     --hash=sha256:d446eec9dbab12f5a98baa1af6c1db08b56b66eec047dbadf8bec09ce2787a95
-django==1.11.11 \
-    --hash=sha256:74077d7309b48b97dacdac2dfb35c968028becf00a7a684e7f29b2af1b980edc \
-    --hash=sha256:fd186d544c7c2f835668cf11f77be071307c9eb22615a5b3a16bdb14c8357f41
+django==2.2.2 \
+    --hash=sha256:753d30d3eb078064d2ddadfea65083c9848074a7f93d7b4dc7fa6b1380d278f5 \
+    --hash=sha256:7cb67e8b934fab23b6daed7144da52e8a25a47eba7f360ca43d2b448506b01ad
 djangorestframework==3.7.7 \
     --hash=sha256:1f6baf40ed456ed2af6bd1a4ff8bbc3503cebea16509993aea2b7085bc097766 \
     --hash=sha256:9f9e94e8d22b100ed3a43cee8c47a7ff7b185e778a1f2da9ec5c73fc4e081b87
