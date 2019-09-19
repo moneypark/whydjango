@@ -223,10 +223,9 @@ traitlets==4.3.2 \
     --hash=sha256:9c4bd2d267b7153df9152698efb1050a5d84982d3384a37b2c1f7723ba3e7835 \
     --hash=sha256:c6cb5e6f57c5a9bdaa40fa71ce7b4af30298fbab9ece9815b5d995ab6217c7d9 \
     # via ipython
-urllib3==1.22 \
-    --hash=sha256:06330f386d6e4b195fbfc736b297f58c5a892e4440e54d294d7004e3a9bbea1b \
-    --hash=sha256:cc44da8e1145637334317feebd728bd869a35285b93cbb4cca2577da7e62db4f \
-    # via requests
+urllib3==1.25.4 \
+    --hash=sha256:319cef72311e511d94be1bb478d202fde499935d0347a9e8f0d232dc3bce47c6 \
+    --hash=sha256:8a8090dd02b145256534c205e624eb20161080428ffa14408f6f283c0d0c356e    # via requests
 virtualenv==15.2.0 \
     --hash=sha256:1d7e241b431e7afce47e77f8843a276f652699d1fa4f93b9d8ce0076fd7b0b54 \
     --hash=sha256:e8e05d4714a1c51a2f5921e62f547fcb0f713ebbe959e0a7f585cc8bef71d11f \
